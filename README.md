@@ -10,7 +10,13 @@ First, install dependencies:
 npm install
 ```
 
-Open [http://localhost:5000](http://localhost:500) with your browser to see the result.
+Then run the program:
+
+```bash
+npm start
+```
+
+Open [http://localhost:5000](http://localhost:500) with your browser to check if the program is running
 
 ## Stack
 
