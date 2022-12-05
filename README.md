@@ -11,3 +11,12 @@ npm install
 ```
 
 Open [http://localhost:5000](http://localhost:500) with your browser to see the result.
+
+## Stack
+
+* Node.js
+* Mongoose
+* MVC
+* Unit Test
+* Express.js
+
