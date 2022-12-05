@@ -1,14 +1,10 @@
+# Barbecue Organizer Api
+
+This is a simple barbeque organizer server.
+
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-and
+First, install dependencies:
 
 ```bash
 npm install
