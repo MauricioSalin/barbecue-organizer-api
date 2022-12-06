@@ -12,7 +12,8 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-let MONGODB_URI;
+const MONGODB_URI =
+  "mongodb+srv://admin:admin@mauriciosalin.9ol1trt.mongodb.net/barbecue-organizer-1?retryWrites=true&w=majority";
 const mongoDB = process.env.MONGODB_URI || MONGODB_URI;
 
 mongoose.connect(mongoDB);

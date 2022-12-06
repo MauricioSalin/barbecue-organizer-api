@@ -10,7 +10,7 @@ const {
 
 router.get("/:id/get-participant", getParticipant);
 router.post("/:eventId/insert-participant", insertParticipant);
-router.put("/:id/update-participant", updateParticipant);
+router.put("/:participantId/update-participant", updateParticipant);
 router.delete("/:id/delete-participant", deleteParticipant);
 
 module.exports = router;

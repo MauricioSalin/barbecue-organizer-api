@@ -38,7 +38,7 @@ exports.insertParticipant = async (req, res) => {
 exports.updateParticipant = async (req, res) => {
   const body = { ...req.body, updateDate: new Date() };
 
-  await Participant.findByIdAndUpdate(req.params.id, { $set: body });
+  await Participant.findByIdAndUpdate(req.params.participantId, { $set: body });
 
   res.json(body);
 };
