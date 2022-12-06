@@ -30,9 +30,9 @@ exports.insertParticipant = async (req, res) => {
   };
   const participant = new Participant(body);
 
-  await participant.save();
+  const newParticipant = await participant.save();
 
-  res.json(body);
+  res.json(newParticipant);
 };
 
 exports.updateParticipant = async (req, res) => {
